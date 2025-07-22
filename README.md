@@ -128,4 +128,9 @@ pip install -r requirements.txt
 🙋🏻‍♀️ Author
 Sohee Lee
 Aspiring ML Engineer focused on computer vision & deep learning.
-GitHub ｜ LinkedIn
+## 🙋🏻‍♀️ Author
+
+**Sohee Lee**  
+Aspiring ML Engineer focused on computer vision & deep learning.  
+[GitHub](https://github.com/gracelee087) ｜ [LinkedIn](https://www.linkedin.com/in/soheeleecv/)
+
