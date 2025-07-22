@@ -21,15 +21,15 @@ Each image was then **manually sorted** into category folders.
 
 **Target classes included:**
 
-- blue_highlighter
-- blue_pen
-- eraser
-- lotion
-- mouse
-- multi_color_pen
-- oil_based_pen
-- pen_refill
-- yellow_highlighter
+- blue_highlighter  
+- blue_pen  
+- eraser  
+- lotion  
+- mouse  
+- multi_color_pen  
+- oil_based_pen  
+- pen_refill  
+- yellow_highlighter  
 
 **Folder structure:**
 
@@ -44,73 +44,56 @@ Photo_Collection/
 ├── oil_based_pen/
 ├── pen_refill/
 └── yellow_highlighter/
-⚠️ Photo_collection contains 230 images for sufficient training data.
-
+⚠️ Photo_Collection contains 230+ images across 9 categories for sufficient training data.
 
 🧪 Methodology
-
-• **Environment**: Project runs in a Python virtual environment (`venv`), with dependencies defined in `requirements.txt`  
-• **Preprocessing**: Images resized and normalized to fit VGG16 input requirements  
-• **Modeling**:  
-  - Imported **VGG16** pre-trained on ImageNet  
-  - Replaced top layers with custom dense layers  
-  - Experimented with freezing/unfreezing base layers  
-• **Training**:  
-  - Optimizer: Adam  
-  - Loss: Categorical Crossentropy  
-  - Validation set split to monitor overfitting  
-• **Evaluation**: Accuracy metrics and confusion matrix analysis
-
----
+• Environment: Project runs in a Python virtual environment (venv), with dependencies defined in requirements.txt
+• Preprocessing: Images resized and normalized to fit VGG16 input requirements
+- Modeling:
+•Imported VGG16 pre-trained on ImageNet
+•Replaced top layers with custom dense layers
+•Experimented with freezing/unfreezing base layers
+- Training:
+• Optimizer: Adam
+• Loss: Categorical Crossentropy
+• Validation set split to monitor overfitting
+• Evaluation: Accuracy metrics and confusion matrix analysis
 
 🔬 Key Learnings & Experiments
-
-• Fine-tuning VGG16 layers improved performance significantly over using it as a frozen feature extractor  
-• The quality and diversity of images had a major effect on generalization  
+• Fine-tuning VGG16 layers improved performance significantly over using it as a frozen feature extractor
+• The quality and diversity of images had a major effect on generalization
 • Data augmentation and regularization techniques effectively reduced overfitting
 
----
-
 📈 Results
-
-| Model Version         | Accuracy (Validation)  |
-|-----------------------|------------------------|
-| Frozen VGG16          | ~72%                   |
-| Fine-tuned VGG16      | **~89%**               |
-
-✅ Transfer learning and fine-tuning led to a **significant performance boost** on webcam-collected real-world data.
-
----
+| Model Version    | Accuracy (Validation) |
+| ---------------- | --------------------- |
+| Frozen VGG16     | \~72%                 |
+| Fine-tuned VGG16 | **\~89%**             |
+✅ Transfer learning and fine-tuning led to a significant performance boost on webcam-collected real-world data.
 
 🧰 Setup Instructions
-
-> For **Windows (Git Bash)**:
-
-```For Git-Bash CLI
+🖥️ For Git Bash CLI : 
 python -m venv .venv
 source .venv/Scripts/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 jupyter lab
 
-```For PowerShell CLI
+🖥️ For PowerShell CLI
 pyenv local 3.11.3
 python -m venv .venv
 .venv\Scripts\Activate.ps1
 pip install --upgrade pip
 pip install -r requirements.txt
 
-```macOS type
+🍎 For macOS Terminal
 pyenv local 3.11.3
 python -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 
-
 📁 Repository Structure
-
-```text
 ├── Photo_Collection/          # Collected image data
 ├── tunning.ipynb              # Main training & evaluation notebook
 ├── requirements.txt
@@ -118,19 +101,29 @@ pip install -r requirements.txt
 └── .venv/                     # Python virtual environment (not pushed)
 
 🛠️ Technologies Used
+-Python, Keras, TensorFlow
+-OpenCV – for manual webcam image capture
+-JupyterLab – for interactive training & prototyping
+-VGG16 – from keras.applications
+-Git & GitHub – for version control and collaboration
 
-- **Python**, **Keras**, **TensorFlow**
-- **OpenCV** – for manual webcam image capture
-- **JupyterLab** – for interactive training & prototyping
-- **VGG16** – from `keras.applications`
-- **Git & GitHub** – for version control and collaboration
 
 🙋🏻‍♀️ Author
-
-**Sohee Lee**  
-Aspiring ML Engineer focused on computer vision & deep learning.  
+Sohee Lee
+Aspiring ML Engineer focused on computer vision & deep learning.
 
 🔗[`GitHub`](https://github.com/gracelee087)
+
 🔗[`LinkedIn`](https://www.linkedin.com/in/soheeleecv/)
+
+
+
+
+
+
+
+
+
+
 
 
