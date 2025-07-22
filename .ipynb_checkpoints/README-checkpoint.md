@@ -47,7 +47,7 @@ Photo_Collection/
 ⚠️ Photo_collection contains 230 images for sufficient training data.
 
 
-## 🧪 Methodology
+🧪 Methodology
 
 • **Environment**: Project runs in a Python virtual environment (`venv`), with dependencies defined in `requirements.txt`  
 • **Preprocessing**: Images resized and normalized to fit VGG16 input requirements  
@@ -63,7 +63,7 @@ Photo_Collection/
 
 ---
 
-## 🔬 Key Learnings & Experiments
+🔬 Key Learnings & Experiments
 
 • Fine-tuning VGG16 layers improved performance significantly over using it as a frozen feature extractor  
 • The quality and diversity of images had a major effect on generalization  
@@ -71,7 +71,7 @@ Photo_Collection/
 
 ---
 
-## 📈 Results
+📈 Results
 
 | Model Version         | Accuracy (Validation)  |
 |-----------------------|------------------------|
@@ -82,7 +82,7 @@ Photo_Collection/
 
 ---
 
-## 🧰 Setup Instructions
+🧰 Setup Instructions
 
 > For **Windows (Git Bash)**:
 
@@ -108,7 +108,7 @@ pip install --upgrade pip
 pip install -r requirements.txt
 
 
-## 📁 Repository Structure
+📁 Repository Structure
 
 ```text
 ├── Photo_Collection/          # Collected image data
@@ -117,7 +117,7 @@ pip install -r requirements.txt
 ├── README.md
 └── .venv/                     # Python virtual environment (not pushed)
 
-## 🛠️ Technologies Used
+🛠️ Technologies Used
 
 - **Python**, **Keras**, **TensorFlow**
 - **OpenCV** – for manual webcam image capture
@@ -125,11 +125,12 @@ pip install -r requirements.txt
 - **VGG16** – from `keras.applications`
 - **Git & GitHub** – for version control and collaboration
 
-## 🙋🏻‍♀️ Author
+🙋🏻‍♀️ Author
 
 **Sohee Lee**  
 Aspiring ML Engineer focused on computer vision & deep learning.  
 
 🔗 [GitHub](https://github.com/gracelee087)  
+
 🔗 [LinkedIn](https://www.linkedin.com/in/soheeleecv/)
 
