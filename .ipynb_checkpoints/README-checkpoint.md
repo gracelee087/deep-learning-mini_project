@@ -125,12 +125,11 @@ pip install -r requirements.txt
 - **VGG16** – from `keras.applications`
 - **Git & GitHub** – for version control and collaboration
 
-🙋🏻‍♀️ Author
-Sohee Lee
-Aspiring ML Engineer focused on computer vision & deep learning.
 ## 🙋🏻‍♀️ Author
 
 **Sohee Lee**  
 Aspiring ML Engineer focused on computer vision & deep learning.  
-[GitHub](https://github.com/gracelee087) ｜ [LinkedIn](https://www.linkedin.com/in/soheeleecv/)
+
+🔗 [GitHub](https://github.com/gracelee087)  
+🔗 [LinkedIn](https://www.linkedin.com/in/soheeleecv/)
 
