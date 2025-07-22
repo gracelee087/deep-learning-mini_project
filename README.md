@@ -44,7 +44,7 @@ Photo_Collection/
 ├── oil_based_pen/
 ├── pen_refill/
 └── yellow_highlighter/
-⚠️ Photo_Collection contains 230+ images across 9 categories for sufficient training data.
+⚠️ Photo_Collection contains 230+ images across 9 categories for the training data.
 
 🧪 Methodology
 • Environment: Project runs in a Python virtual environment (venv), with dependencies defined in requirements.txt
@@ -98,7 +98,7 @@ pip install -r requirements.txt
 ├── tunning.ipynb              # Main training & evaluation notebook
 ├── requirements.txt
 ├── README.md
-└── .venv/                     # Python virtual environment (not pushed)
+└── .venv/                     
 
 🛠️ Technologies Used
 -Python, Keras, TensorFlow
